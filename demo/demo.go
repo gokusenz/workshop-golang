@@ -23,7 +23,7 @@ func main() {
 			fmt.Println(filename, ":", i)
 			c := fmt.Sprintf("%v ", i)
 			io.WriteString(f, c)
-			time.Sleep(time.Microsecond * 100)
+			time.Sleep(time.Millisecond * 100)
 		}
 	}
 	var input string
